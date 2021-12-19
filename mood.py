@@ -1,5 +1,5 @@
 print("Hello! How are you!")
-mood = input(:)
+mood = input(":")
 if mood == "good":
     print("Me too!")
 elif mood == "bad":
