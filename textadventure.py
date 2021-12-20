@@ -15,7 +15,7 @@ def main():
                 # make a 75% chance that the player will be eaten, else say thet they exited with the relic and the money and then break
                 pass
             elif dragon == "2":
-                print("you leave unharmed, and you won!")
+                print("you leave unharmed with the money, and you won!")
                 break
             else:
                 print("Not 1 or 2.")
