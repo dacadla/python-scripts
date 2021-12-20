@@ -12,8 +12,7 @@ def main():
             print("type \"1\" to take it, or type \"2\" to leave though the exit door.")
             dragon = input(": ")
             if dragon == "1":
-                # make a 75% chance that the player will be eaten, else say thet they exited with the relic and the money and then break
-                dragonChance = random.random()
+                dragonChance = str(random.random()) # find chance of being eaten
                 if dragon < 0.75:
                     print("The dragon ate you when you tried to gake the relic from it's back, and it has eaten you.")
                     print("you lost.")
