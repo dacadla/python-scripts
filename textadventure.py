@@ -13,7 +13,15 @@ def main():
             dragon = input(": ")
             if dragon == "1":
                 # make a 75% chance that the player will be eaten, else say thet they exited with the relic and the money and then break
-                pass
+                dragonChance = random.random()
+                if dragon < 0.75:
+                    print("The dragon ate you when you tried to gake the relic from it's back, and it has eaten you.")
+                    print("you lost.")
+                    break
+                else:
+                    print("you scale the dragon's back, and you take the relic.")
+                    print("you go back down the dragon's back, and you leave with all the relic, the money.")
+                    print("you won!")
             elif dragon == "2":
                 print("you leave unharmed with the money, and you won!")
                 break
