@@ -1,5 +1,11 @@
 import random
 
+# textadventure
+# -dacadla
+# I made this as an experiment to test my python skills.
+# not done yet, but almost there!
+# Things to do: 
+# finish doors 2 and 3
 def main():
     while True:
         print("You just woke up in a dungeon, and cannot renember anything. when you stand up, you see three doors.")
@@ -12,15 +18,16 @@ def main():
             print("type \"1\" to take it, or type \"2\" to leave though the exit door.")
             dragon = input(": ")
             if dragon == "1":
-                dragonChance = str(random.random()) # find chance of being eaten
-                if dragon < 0.75:
+                dragonChance = random.random() # find chance of being eaten
+                if dragonChance < 0.75:
                     print("The dragon ate you when you tried to gake the relic from it's back, and it has eaten you.")
                     print("you lost.")
                     break
                 else:
                     print("you scale the dragon's back, and you take the relic.")
-                    print("you go back down the dragon's back, and you leave with all the relic, the money.")
+                    print("you go back down the dragon's back, and you leave with all the relic and, the money.")
                     print("you won!")
+                    break
             elif dragon == "2":
                 print("you leave unharmed with the money, and you won!")
                 break
