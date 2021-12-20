@@ -13,6 +13,7 @@ def main():
             dragon = input(": ")
             if dragon == 1:
                 # make a 75% chance that the player will be eaten, else say thet they exited with the relic and the money and then break
+                pass
             elif dragon == 2:
                 print("you leave unharmed, and you won!")
                 break
@@ -21,8 +22,10 @@ def main():
                 break
         elif door == 2:
             #to be done
+            pass
         elif door == 3:
             #to be done
+            pass
         else: 
             print("Not 1, 2 or 3.")
             break
@@ -33,5 +36,4 @@ def main():
         main()
 
 
-if __name__ == __main__:
-    main()
+main()
