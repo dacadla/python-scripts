@@ -3,8 +3,6 @@ import random
 # textadventure
 # -dacadla
 # I made this as an experiment to test my python skills.
-# not done yet, but almost there!
-# Things to do: 
 # Done!
 def main():
     while True:
