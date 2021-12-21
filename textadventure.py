@@ -5,7 +5,7 @@ import random
 # I made this as an experiment to test my python skills.
 # not done yet, but almost there!
 # Things to do: 
-# finish door 3
+# Done!
 def main():
     while True:
         print("You just woke up in a dungeon, and cannot renember anything. when you stand up, you see three doors.")
@@ -64,8 +64,17 @@ def main():
                 print("Not 1 or 2.")
                 break
         elif door == "3":
-            #to be done
-            pass
+            print("When you open the door, you see a giant ogre, and an exit door.")
+            ogreChance = random.random()
+            if ogreChance > 0.9:
+                print("You slip past the ogre into the exit door.")
+                print("You win!")
+                break
+            else:
+                print("The ogre noticed you and ate you.")
+                print("you lost.")
+                break
+
         else: 
             print("Not 1, 2 or 3.")
             break
