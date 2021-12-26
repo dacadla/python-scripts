@@ -2,10 +2,6 @@
   "name": "scripts",
   "version": "1.0.0",
   "description": "Collection of scripts",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dacadla/scripts.git"
@@ -15,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/dacadla/scripts/issues"
   },
-  "homepage": "https://github.com/dacadla/scripts#readme"
+  "homepage": "https://github.com/dacadla/scripts#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
