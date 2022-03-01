@@ -82,5 +82,5 @@ def main():
     if playAgain == "y":
         main()
 
-
-main()
+if __name__ == "__main__":
+    main()
